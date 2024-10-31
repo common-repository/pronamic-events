@@ -1,0 +1,52 @@
+{
+	"name": "pronamic/wp-pronamic-events",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Remco Tolsma",
+			"email": "info@remcotolsma.nl"
+		},
+		{
+			"name": "Karel-Jan Tolsma",
+			"email": "info@kareljantolsma.nl"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"classes/"
+		]
+	},
+	"config": {
+		"allow-plugins": {
+			"roots/wordpress-core-installer": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"wp-slug": "pronamic-events"
+	},
+	"require": {
+		"xrstf/composer-php52": "1.*",
+		"sabre/vobject": "^3.4",
+		"sabre/uri": "^1"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"roots/wordpress": "^5.3",
+		"squizlabs/php_codesniffer": "^3.4",
+		"wp-coding-standards/wpcs": "^2.2",
+		"pronamic/wp-documentor": "^1.0",
+		"pronamic/pronamic-cli": "^1.1"
+	},
+	"scripts": {
+		"phpcs": "vendor/bin/phpcs -s -v",
+		"build": "@php build/scripts/build.php",
+		"release": [
+			"@build",
+			"vendor/bin/pronamic release-to-github --working-dir=./ --build-dir=./build/staging-2/",
+			"vendor/bin/pronamic release-to-pronamic ./ ./build/staging-2/",
+			"vendor/bin/pronamic release-to-wp-org --working-dir=./build/stage-2/ --svn-dir=./build/svn/"
+		]
+	}
+}

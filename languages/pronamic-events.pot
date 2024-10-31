@@ -1,0 +1,589 @@
+# Copyright (C) 2024 Pronamic
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pronamic Events 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-events\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-17T12:53:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: pronamic-events\n"
+
+#. Plugin Name of the plugin
+#: pronamic-events.php
+#: classes/class-widget.php:16
+msgid "Pronamic Events"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: pronamic-events.php
+msgid "https://www.pronamic.eu/plugins/pronamic-events/"
+msgstr ""
+
+#. Description of the plugin
+#: pronamic-events.php
+msgid "This plugin add some basic Event functionality to WordPress."
+msgstr ""
+
+#. Author of the plugin
+#: pronamic-events.php
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin
+#: pronamic-events.php
+msgid "https://www.pronamic.eu/"
+msgstr ""
+
+#: admin/meta-box-event-details.php:40
+#: templates/archive-pronamic_event.php:23
+msgid "Date"
+msgstr ""
+
+#: admin/meta-box-event-details.php:47
+msgid "to"
+msgstr ""
+
+#: admin/meta-box-event-details.php:57
+msgid "All day"
+msgstr ""
+
+#: admin/meta-box-event-details.php:66
+msgid "Update time of existing event repeats"
+msgstr ""
+
+#: admin/meta-box-event-details.php:78
+msgid "Share"
+msgstr ""
+
+#: admin/meta-box-event-details.php:84
+msgid "iCalendar"
+msgstr ""
+
+#: admin/meta-box-event-details.php:85
+msgid "Google Calendar"
+msgstr ""
+
+#: admin/meta-box-event-details.php:86
+msgid "Yahoo Calendar"
+msgstr ""
+
+#: admin/meta-box-event-details.php:113
+#: templates/archive-pronamic_event.php:59
+#: templates/single-pronamic_event.php:28
+msgid "Location"
+msgstr ""
+
+#: admin/meta-box-event-details.php:118
+#: templates/archive-pronamic_event.php:60
+#: templates/single-pronamic_event.php:35
+msgid "Website"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:13
+msgid "&mdash; Select Repeat &mdash;"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:14
+msgid "Daily"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:15
+msgid "Weekly"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:16
+msgid "Monthly"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:17
+msgid "Annually"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:21
+msgid "days"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:22
+msgid "weeks"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:23
+msgid "moths"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:24
+msgid "year"
+msgstr ""
+
+#. translators: %s: post parent edit URL
+#: admin/meta-box-event-repeat.php:46
+msgid "This event is part of a <a href=\"%s\">repeated series</a>."
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:67
+#: classes/class-admin.php:75
+#: classes/class-repeat-module-admin.php:285
+msgid "Repeat"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:72
+msgid "Enable repeat"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:93
+msgid "Frequency"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:120
+msgid "Repeat every"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:138
+msgid "days/weeks/months/year"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:143
+msgid "Ends On"
+msgstr ""
+
+#. translators: %s: input field
+#: admin/meta-box-event-repeat.php:165
+msgid "After %s instances"
+msgstr ""
+
+#. translators: %s: input field
+#: admin/meta-box-event-repeat.php:182
+msgid "Until %s"
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:194
+msgid "Number Repeats"
+msgstr ""
+
+#. translators: %d: maximum number of repeats
+#: admin/meta-box-event-repeat.php:207
+msgid "Note: Due to performance there is currently an maximum of %d repeats."
+msgstr ""
+
+#: admin/meta-box-event-repeat.php:237
+msgid "Note: All events in the series are changed."
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:21
+#: templates/archive-pronamic_event.php:22
+msgid "Title"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:22
+#: classes/class-admin.php:378
+#: templates/single-pronamic_event.php:20
+msgid "Start Date"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:23
+#: classes/class-admin.php:379
+#: templates/single-pronamic_event.php:23
+msgid "End Date"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:24
+msgid "In Series"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:25
+msgid "Actions"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:42
+#: admin/meta-box-event-repeats.php:58
+#: classes/class-admin.php:429
+#: classes/class-admin.php:445
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:43
+#: admin/meta-box-event-repeats.php:59
+#: classes/class-admin.php:430
+#: classes/class-admin.php:446
+msgid "Y/m/d"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:44
+#: admin/meta-box-event-repeats.php:60
+#: classes/class-admin.php:431
+#: classes/class-admin.php:447
+msgid "g:i:s"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:76
+msgid "Yes"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:76
+msgid "No"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:81
+#: templates/single-pronamic_event.php:46
+msgid "Edit"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:82
+msgid "Trash"
+msgstr ""
+
+#: admin/meta-box-event-repeats.php:94
+msgid "No repeats available for this event."
+msgstr ""
+
+#: classes/class-admin.php:49
+msgid "General"
+msgstr ""
+
+#: classes/class-admin.php:56
+msgid "Upcoming Event Status"
+msgstr ""
+
+#: classes/class-admin.php:65
+msgid "Passed Event Status "
+msgstr ""
+
+#: classes/class-admin.php:82
+msgid "Date format slug"
+msgstr ""
+
+#: classes/class-admin.php:88
+msgid "Use date_i18n() format. E.g. d-m-Y."
+msgstr ""
+
+#: classes/class-admin.php:97
+msgid "Permalinks"
+msgstr ""
+
+#: classes/class-admin.php:104
+msgid "Event base"
+msgstr ""
+
+#: classes/class-admin.php:113
+msgid "Category base"
+msgstr ""
+
+#: classes/class-admin.php:122
+msgid "Status base"
+msgstr ""
+
+#: classes/class-admin.php:155
+msgid "Pronamic Events Settings"
+msgstr ""
+
+#: classes/class-admin.php:156
+msgid "Settings"
+msgstr ""
+
+#: classes/class-admin.php:213
+msgid "&mdash; Select Status &mdash;"
+msgstr ""
+
+#: classes/class-admin.php:268
+msgid "Event Details"
+msgstr ""
+
+#: classes/class-plugin.php:121
+msgctxt "slug"
+msgid "events"
+msgstr ""
+
+#: classes/class-plugin.php:127
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: classes/class-plugin.php:128
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+#: classes/class-plugin.php:129
+msgctxt "event"
+msgid "Add New"
+msgstr ""
+
+#: classes/class-plugin.php:130
+msgid "Add New Event"
+msgstr ""
+
+#: classes/class-plugin.php:131
+msgid "Edit Event"
+msgstr ""
+
+#: classes/class-plugin.php:132
+msgid "New Event"
+msgstr ""
+
+#: classes/class-plugin.php:133
+msgid "View Event"
+msgstr ""
+
+#: classes/class-plugin.php:134
+msgid "Search Events"
+msgstr ""
+
+#: classes/class-plugin.php:135
+msgid "No events found."
+msgstr ""
+
+#: classes/class-plugin.php:136
+msgid "No events found in Trash."
+msgstr ""
+
+#: classes/class-plugin.php:137
+msgid "Parent Event:"
+msgstr ""
+
+#: classes/class-plugin.php:138
+msgid "All Events"
+msgstr ""
+
+#: classes/class-plugin.php:139
+msgid "Event Archives"
+msgstr ""
+
+#: classes/class-plugin.php:140
+msgid "Insert into event"
+msgstr ""
+
+#: classes/class-plugin.php:141
+msgid "Uploaded to this event"
+msgstr ""
+
+#: classes/class-plugin.php:142
+msgid "Filter events list"
+msgstr ""
+
+#: classes/class-plugin.php:143
+msgid "Events list navigation"
+msgstr ""
+
+#: classes/class-plugin.php:144
+msgid "Events list"
+msgstr ""
+
+#: classes/class-plugin.php:145
+msgctxt "menu_name"
+msgid "Events"
+msgstr ""
+
+#: classes/class-plugin.php:179
+msgctxt "slug"
+msgid "event-category"
+msgstr ""
+
+#: classes/class-plugin.php:187
+msgctxt "class general name"
+msgid "Event categories"
+msgstr ""
+
+#: classes/class-plugin.php:188
+msgctxt "class singular name"
+msgid "Event category"
+msgstr ""
+
+#: classes/class-plugin.php:189
+msgid "Search Event categories"
+msgstr ""
+
+#: classes/class-plugin.php:190
+msgid "All Event categories"
+msgstr ""
+
+#: classes/class-plugin.php:191
+msgid "Parent Event category"
+msgstr ""
+
+#: classes/class-plugin.php:192
+msgid "Parent Event category:"
+msgstr ""
+
+#: classes/class-plugin.php:193
+msgid "Edit Event category"
+msgstr ""
+
+#: classes/class-plugin.php:194
+msgid "Update Event category"
+msgstr ""
+
+#: classes/class-plugin.php:195
+msgid "Add New Event category"
+msgstr ""
+
+#: classes/class-plugin.php:196
+msgid "New Event category Name"
+msgstr ""
+
+#: classes/class-plugin.php:197
+msgid "Categories"
+msgstr ""
+
+#: classes/class-plugin.php:207
+msgctxt "slug"
+msgid "event-status"
+msgstr ""
+
+#: classes/class-plugin.php:215
+msgctxt "class general name"
+msgid "Event statuses"
+msgstr ""
+
+#: classes/class-plugin.php:216
+msgctxt "class singular name"
+msgid "Event status"
+msgstr ""
+
+#: classes/class-plugin.php:217
+msgid "Search Event statuses"
+msgstr ""
+
+#: classes/class-plugin.php:218
+msgid "All Event statuses"
+msgstr ""
+
+#: classes/class-plugin.php:219
+msgid "Parent Event status"
+msgstr ""
+
+#: classes/class-plugin.php:220
+msgid "Parent Event status:"
+msgstr ""
+
+#: classes/class-plugin.php:221
+msgid "Edit Event status"
+msgstr ""
+
+#: classes/class-plugin.php:222
+msgid "Update Event status"
+msgstr ""
+
+#: classes/class-plugin.php:223
+msgid "Add New Event status"
+msgstr ""
+
+#: classes/class-plugin.php:224
+msgid "New Event status Name"
+msgstr ""
+
+#: classes/class-plugin.php:225
+msgid "Statuses"
+msgstr ""
+
+#: classes/class-plugin.php:237
+msgid "Passed"
+msgstr ""
+
+#. translators: %s: count value
+#: classes/class-plugin.php:243
+msgid "Passed <span class=\"count\">(%s)</span>"
+msgid_plural "Passed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-repeat-module-admin.php:36
+msgid "Event Repeat"
+msgstr ""
+
+#: classes/class-repeat-module-admin.php:46
+msgid "Event Repeats"
+msgstr ""
+
+#: classes/class-widget.php:18
+msgid "The most recent events on your site"
+msgstr ""
+
+#: classes/class-widget.php:119
+msgid "Title:"
+msgstr ""
+
+#: classes/class-widget.php:122
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/gravityforms.php:16
+msgid "Is Event Start Date"
+msgstr ""
+
+#: includes/gravityforms.php:23
+msgid "Is Event Start Time"
+msgstr ""
+
+#: includes/gravityforms.php:31
+msgid "Is Event End Date"
+msgstr ""
+
+#: includes/gravityforms.php:38
+msgid "Is Event End Time"
+msgstr ""
+
+#. translators: 1: column name, 2: order symbol
+#: templates/archive-pronamic_event.php:42
+msgid "%1$s %2$s"
+msgstr ""
+
+#: templates/archive-pronamic_event.php:96
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: templates/widget-pronamic-events.php:34
+msgid "No upcoming events."
+msgstr ""
+
+#: blocks/event-end-date/index.js:1
+msgid "Event End Date"
+msgstr ""
+
+#: blocks/event-end-date/index.js:1
+#: blocks/event-start-date/index.js:1
+msgid "Format"
+msgstr ""
+
+#: blocks/event-location/index.js:1
+msgid "Event Location"
+msgstr ""
+
+#: blocks/event-start-date/index.js:1
+msgid "Event Start Date"
+msgstr ""
+
+#: blocks/event-end-date/block.json
+msgctxt "block title"
+msgid "Event End Date"
+msgstr ""
+
+#: blocks/event-end-date/block.json
+msgctxt "block description"
+msgid "Add the end date of this event."
+msgstr ""
+
+#: blocks/event-location/block.json
+msgctxt "block title"
+msgid "Event Location"
+msgstr ""
+
+#: blocks/event-location/block.json
+msgctxt "block description"
+msgid "Add the location of this event."
+msgstr ""
+
+#: blocks/event-start-date/block.json
+msgctxt "block title"
+msgid "Event Start Date"
+msgstr ""
+
+#: blocks/event-start-date/block.json
+msgctxt "block description"
+msgid "Add the start date of this event."
+msgstr ""
